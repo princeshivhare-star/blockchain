@@ -1,0 +1,125 @@
+{
+  "chain": [
+    {
+      "timestamp": 1778657231216,
+      "transactions": [],
+      "previousHash": "0",
+      "nonce": 0,
+      "hash": "dee3fd3b0b1d82e4683591a93f2bd97dd4b9c18122feeb7d197ff48013e0293a"
+    },
+    {
+      "timestamp": 1778657231222,
+      "transactions": [
+        {
+          "fromAddress": "address1",
+          "toAddress": "address2",
+          "amount": 100,
+          "timestamp": 1778657231222,
+          "signature": ""
+        },
+        {
+          "fromAddress": "address2",
+          "toAddress": "address1",
+          "amount": 50,
+          "timestamp": 1778657231222,
+          "signature": ""
+        },
+        {
+          "fromAddress": null,
+          "toAddress": "genesis-miner",
+          "amount": 100,
+          "timestamp": 1778657231222,
+          "signature": ""
+        }
+      ],
+      "previousHash": "dee3fd3b0b1d82e4683591a93f2bd97dd4b9c18122feeb7d197ff48013e0293a",
+      "nonce": 357,
+      "hash": "008dd2d10fbce2d8f2f69d5b590e9fdb52464be7da32053cee0e22085a5a0026"
+    },
+    {
+      "timestamp": 1778657404928,
+      "transactions": [
+        {
+          "fromAddress": null,
+          "toAddress": "miner1",
+          "amount": 100,
+          "timestamp": 1778657404928,
+          "signature": ""
+        }
+      ],
+      "previousHash": "008dd2d10fbce2d8f2f69d5b590e9fdb52464be7da32053cee0e22085a5a0026",
+      "nonce": 58,
+      "hash": "007eaa0bf8e3df263f11485e8a293592cb3954eaef4c0ddc8553a19091456006"
+    },
+    {
+      "timestamp": 1778657440488,
+      "transactions": [
+        {
+          "fromAddress": null,
+          "toAddress": "miner1",
+          "amount": 100,
+          "timestamp": 1778657440488,
+          "signature": ""
+        }
+      ],
+      "previousHash": "007eaa0bf8e3df263f11485e8a293592cb3954eaef4c0ddc8553a19091456006",
+      "nonce": 275,
+      "hash": "00084be80de35a9e4834f5630697d3496d14397608b27708e1ac786210e2adfc"
+    },
+    {
+      "timestamp": 1778657443684,
+      "transactions": [
+        {
+          "fromAddress": null,
+          "toAddress": "miner1",
+          "amount": 100,
+          "timestamp": 1778657443684,
+          "signature": ""
+        }
+      ],
+      "previousHash": "00084be80de35a9e4834f5630697d3496d14397608b27708e1ac786210e2adfc",
+      "nonce": 388,
+      "hash": "00990bb5b890d18e20798a4571718d82f90340c3bb4bd4a797498be5cac11165"
+    },
+    {
+      "timestamp": 1778657878773,
+      "transactions": [
+        {
+          "fromAddress": "dee3fd3b0b1d82e4683591a93f2bd97dd4b9c18122feeb7d197ff48013e0293a",
+          "toAddress": "008dd2d10fbce2d8f2f69d5b590e9fdb52464be7da32053cee0e22085a5a0026",
+          "amount": 100,
+          "timestamp": 1778657794478,
+          "signature": ""
+        },
+        {
+          "fromAddress": null,
+          "toAddress": "miner1",
+          "amount": 100,
+          "timestamp": 1778657878773,
+          "signature": ""
+        }
+      ],
+      "previousHash": "00990bb5b890d18e20798a4571718d82f90340c3bb4bd4a797498be5cac11165",
+      "nonce": 97,
+      "hash": "00c76116b4b2e20f1251cb8a5c6405a224cb3ee1a8c0c141bcacf11c31d43c3d"
+    },
+    {
+      "timestamp": 1778658010421,
+      "transactions": [
+        {
+          "fromAddress": null,
+          "toAddress": "miner1",
+          "amount": 100,
+          "timestamp": 1778658010421,
+          "signature": ""
+        }
+      ],
+      "previousHash": "00c76116b4b2e20f1251cb8a5c6405a224cb3ee1a8c0c141bcacf11c31d43c3d",
+      "nonce": 175,
+      "hash": "00a5438b310224219f865367261bd8c31f6be91dfa90d7a523630f8481a1b496"
+    }
+  ],
+  "pendingTransactions": [],
+  "difficulty": 2,
+  "miningReward": 100
+}
